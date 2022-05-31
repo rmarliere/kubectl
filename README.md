@@ -28,7 +28,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Rollout restart
-      uses: jonathan-sh/kubectl@1
+      uses: JoaoVagner/kubectl@1
       env:
         kube_confg_data: ${{ secrets.KUBE_CONFIG_DATA }}
         kube_namespace: ${{ secrets.KUBE_NAMESPACE }}
