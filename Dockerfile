@@ -1,5 +1,5 @@
 # eks version
-FROM alpine/k8s:1.18.2
+FROM alpine/k8s:1.22.6
 
 RUN apk add --update \
         coreutils \
